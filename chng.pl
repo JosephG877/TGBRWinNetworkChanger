@@ -39,7 +39,7 @@ if ($choice == 1) {
     $command_set_dhcp = "netsh interface ip set address name=\"$interface_name\" source=dhcp";
     $command_reset_dns = "netsh interface ip set dns name=\"$interface_name\" source=dhcp";
 } else {
-    print "Escolha inválida. Nenhuma ação realizada.\n";
+    print "ESCOLHA INVÁLIDA.\n";
     exit;  
 }
 
@@ -56,5 +56,5 @@ if ($command_set_dhcp) {
 }
 
 
-print "Pressione Enter para sair...";
+print "PRESSIONE QUALQUER TECLA PARA SAIR...";
 <STDIN>;
