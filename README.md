@@ -1,3 +1,5 @@
+# TGBR NETWORK CHANGER
+
 Este script irá trocar sua configuração de rede (em ambiente Windows) de Fixo para Dinâmico na mesma interface, uma vez que você irá estabelecer quais as configurações de rede a serem aplicadas.
 
 Modifique os endereços de rede onde estão as variáveis no programa para IP, SUBNET, GATEWAY E DNS SERVER.
